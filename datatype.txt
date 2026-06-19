@@ -1,0 +1,44 @@
+Java Data Types
+
+| Data Type | Size    | Example                          |
+| --------- | ------- | -------------------------------- |
+| `byte`    | 1 byte  | `byte age = 20;`                 |
+| `short`   | 2 bytes | `short num = 1000;`              |
+| `int`     | 4 bytes | `int salary = 50000;`            |
+| `long`    | 8 bytes | `long population = 8000000000L;` |
+| `float`   | 4 bytes | `float price = 99.5f;`           |
+| `double`  | 8 bytes | `double pi = 3.14159;`           |
+| `char`    | 2 bytes | `char grade = 'A';`              |
+| `boolean` | 1 bit   | `boolean isJavaFun = true;`      |
+
+
+Example
+
+public class Main {
+    public static void main(String[] args) {
+        byte age = 20;
+        int marks = 90;
+        double pi = 3.14;
+        char grade = 'A';
+        boolean pass = true;
+
+        System.out.println(age);
+        System.out.println(marks);
+        System.out.println(pi);
+        System.out.println(grade);
+        System.out.println(pass);
+    }
+}
+
+
+
+2. Non-Primitive Data Types
+String
+Arrays
+Classes
+Objects
+Interfaces
+
+Example
+
+String name = "Soumya";
