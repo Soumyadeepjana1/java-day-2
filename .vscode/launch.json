@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "array3",
+      "request": "launch",
+      "mainClass": "array3",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "practice",
       "request": "launch",
       "mainClass": "practice",
