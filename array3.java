@@ -40,6 +40,7 @@ public class array3 {
         int[][] marks = { { 12, 13, 15, 16 }, { 16, 18, 15, 13 } };
         System.out.println("studen 1 marks is" + marks[1][2]);
         System.out.println("all arrays is " + Arrays.toString(marks[1]));
+        System.out.println("first arrays is" + Arrays.toString(marks[0]));
     }
 
 }
