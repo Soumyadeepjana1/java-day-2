@@ -16,14 +16,15 @@
 //     }
 // }
 
-// public class casting {
-//     public static void main(String[] args) {
-//         float kg = 12.5F;
-//         int less = (int) 12.5F;
-//         System.out.println(kg);
-//         System.out.println(less);
-//     }
-// }
+public class casting {
+    public static void main(String[] args) {
+        float kg = 12.5F;
+        int less = (int) kg;
+        System.out.println(kg);
+        System.out.println(less);
+    }
+}
+
 public class casting {
     public static void main(String[] args) {
         byte value = 100;
