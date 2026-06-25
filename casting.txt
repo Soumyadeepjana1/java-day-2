@@ -1,0 +1,57 @@
+What is Casting in Java?
+
+Casting means converting one data type into another data type.
+
+1. Widening Casting (Automatic)
+
+Smaller data type → Larger data type
+
+int num = 10;
+double d = num;
+
+System.out.println(d);
+
+Output:
+
+10.0
+
+Here, int is automatically converted to double.
+
+2. Narrowing Casting (Manual)
+
+Larger data type → Smaller data type
+
+double d = 10.75;
+int num = (int) d;
+
+System.out.println(num);
+
+Output:
+
+10
+
+The decimal part (.75) is removed.
+
+Common Example
+public class Main {
+    public static void main(String[] args) {
+        int a = 25;
+
+        // Widening
+        double b = a;
+
+        // Narrowing
+        int c = (int) 15.99;
+
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
+
+Output:
+
+25.0
+15
+Interview Definition
+
+Casting in Java is the process of converting one data type into another. It is of two types: Widening Casting (automatic) and Narrowing Casting (manual).
