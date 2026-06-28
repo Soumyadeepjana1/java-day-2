@@ -1,0 +1,37 @@
+// public class operators2 {
+//     public static void main(String[] args) {
+//         int name = 1;
+//         name++;
+//         name++;
+//         System.out.println(name);
+
+//     }
+// }
+// import java.util.Scanner;
+
+// public class operators2 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter user input: ");
+//         int a = sc.nextInt();
+//         System.out.println(+a);
+//         System.out.println("enter a  boolean value: ");
+//         boolean name = sc.nextBoolean();
+//         System.out.println(!name);
+//         sc.close();
+
+//     }
+// }
+
+import java.util.Scanner;
+
+public class operators2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a integer value: ");
+        int value = sc.nextInt();
+        System.out.println(++value);
+        sc.close();
+
+    }
+}
