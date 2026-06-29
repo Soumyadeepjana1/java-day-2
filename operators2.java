@@ -34,7 +34,7 @@
 //         sc.close();
 
 //     }
-// }
+// }12
 
 import java.util.Scanner;
 
@@ -46,6 +46,12 @@ public class operators2 {
         System.out.println("enter 2nd value: ");
         int value = sc.nextInt();
         System.out.println(age + value);
+
+        float name = sc.nextFloat();
+        System.out.println(name);
+        System.out.println("enter your name");
+        String lok = sc.next();
+        System.out.println(lok);
         sc.close();
     }
 }
