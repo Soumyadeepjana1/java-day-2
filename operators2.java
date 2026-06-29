@@ -23,15 +23,29 @@
 //     }
 // }
 
+// import java.util.Scanner;
+
+// public class operators2 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter a integer value: ");
+//         int value = sc.nextInt();
+//         System.out.println(++value);
+//         sc.close();
+
+//     }
+// }
+
 import java.util.Scanner;
 
 public class operators2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter a integer value: ");
+        System.out.println("enter your first value:");
+        int age = sc.nextInt();
+        System.out.println("enter 2nd value: ");
         int value = sc.nextInt();
-        System.out.println(++value);
+        System.out.println(age + value);
         sc.close();
-
     }
 }
