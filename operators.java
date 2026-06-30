@@ -24,6 +24,9 @@ public class operators {
         double ef = e / f;
         System.out.println(ef);
 
+        System.out.println((bb));
+        System.out.println(aa);
+
         sc.close();
 
     }

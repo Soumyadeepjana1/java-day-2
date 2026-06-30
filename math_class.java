@@ -6,6 +6,7 @@ public class math_class {
         System.out.println(Math.max(n, b));
         System.out.println(Math.min(n, b));
         System.out.println((int) (Math.random() * 100));
+        System.out.println(c);
         System.out.println(n);
     }
 }
