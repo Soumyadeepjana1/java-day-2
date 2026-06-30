@@ -52,6 +52,10 @@ public class operators2 {
         System.out.println("enter your name");
         String lok = sc.next();
         System.out.println(lok);
+        System.out.println("enter a full word");
+        String lc = sc.nextLine();
+        System.out.println(lc);
+
         sc.close();
     }
 }
