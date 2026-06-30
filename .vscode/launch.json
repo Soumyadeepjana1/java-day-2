@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "login_system",
+      "request": "launch",
+      "mainClass": "login_system",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "leap_year",
+      "request": "launch",
+      "mainClass": "leap_year",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "practice4",
+      "request": "launch",
+      "mainClass": "practice4",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "practice3",
       "request": "launch",
       "mainClass": "practice3",

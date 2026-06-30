@@ -9,6 +9,8 @@ public class practice3 {
             System.out.println("number is even ");
         else
             System.out.println("number is odd");
+        sc.close();
+
     }
 
 }
