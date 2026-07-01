@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "employ",
+      "request": "launch",
+      "mainClass": "employ",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "blood",
       "request": "launch",
       "mainClass": "blood",
