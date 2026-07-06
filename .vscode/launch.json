@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "whileloop",
+      "request": "launch",
+      "mainClass": "whileloop",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "forloop5",
+      "request": "launch",
+      "mainClass": "forloop5",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "forloop4",
+      "request": "launch",
+      "mainClass": "forloop4",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "forloop3",
+      "request": "launch",
+      "mainClass": "forloop3",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "forloop2",
+      "request": "launch",
+      "mainClass": "forloop2",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "forloop1",
+      "request": "launch",
+      "mainClass": "forloop1",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "forloop",
+      "request": "launch",
+      "mainClass": "forloop",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "jtx",
       "request": "launch",
       "mainClass": "jtx",
