@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ford10",
+      "request": "launch",
+      "mainClass": "ford10",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford9",
+      "request": "launch",
+      "mainClass": "ford9",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford8",
+      "request": "launch",
+      "mainClass": "ford8",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford7",
+      "request": "launch",
+      "mainClass": "ford7",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford6",
+      "request": "launch",
+      "mainClass": "ford6",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford5",
+      "request": "launch",
+      "mainClass": "ford5",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford4",
+      "request": "launch",
+      "mainClass": "ford4",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "ford3",
+      "request": "launch",
+      "mainClass": "ford3",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "ford2",
       "request": "launch",
       "mainClass": "ford2",
