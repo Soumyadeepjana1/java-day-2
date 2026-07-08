@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ford1",
+      "request": "launch",
+      "mainClass": "ford1",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "for10",
       "request": "launch",
       "mainClass": "for10",
