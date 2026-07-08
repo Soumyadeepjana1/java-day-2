@@ -3,7 +3,7 @@ public class ford1 {
         int n = 15;
         int sum = 0;
         for (int i = 1; i <= n; i++) {
-            sum = sum * i;
+            sum = sum + i;
         }
         System.out.println(sum);
 
