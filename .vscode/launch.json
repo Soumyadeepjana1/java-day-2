@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "q2",
+      "request": "launch",
+      "mainClass": "q2",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "q1",
+      "request": "launch",
+      "mainClass": "q1",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "ford10",
       "request": "launch",
       "mainClass": "ford10",
