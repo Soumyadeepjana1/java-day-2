@@ -11,6 +11,7 @@ public class while1 {
             b--;
         }
         System.out.println(a);
+        sc.close();
     }
 
 }
