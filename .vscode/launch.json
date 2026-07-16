@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "w1",
+      "request": "launch",
+      "mainClass": "w1",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "f1",
+      "request": "launch",
+      "mainClass": "f1",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "while2",
       "request": "launch",
       "mainClass": "while2",
