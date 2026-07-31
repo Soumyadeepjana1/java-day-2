@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Sstring {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         String name = "soumyadeep";
         String surname = "jana";
         String ns = name + surname;
@@ -19,6 +22,9 @@ public class Sstring {
         System.out.println(name.replace("s", "g")); // replace s with g
         System.out.println(name.replace("s", "g")); // replace s with g
         System.out.println(name.replace("s", "g")); // replace s with g
+
+        System.out.println(sc.nextInt());
+        sc.close();
 
     }
 }
