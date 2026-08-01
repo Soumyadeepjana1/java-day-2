@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "casting2",
+      "request": "launch",
+      "mainClass": "casting2",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "twodarray",
       "request": "launch",
       "mainClass": "twodarray",
