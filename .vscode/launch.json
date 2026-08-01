@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ifelse2",
+      "request": "launch",
+      "mainClass": "ifelse2",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "math",
       "request": "launch",
       "mainClass": "math",
