@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "dowhile",
+      "request": "launch",
+      "mainClass": "dowhile",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "Whileloop",
+      "request": "launch",
+      "mainClass": "Whileloop",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "Forloop2",
+      "request": "launch",
+      "mainClass": "Forloop2",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "Forloop",
+      "request": "launch",
+      "mainClass": "Forloop",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "switchcase",
       "request": "launch",
       "mainClass": "switchcase",
