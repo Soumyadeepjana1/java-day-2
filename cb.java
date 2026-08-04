@@ -1,6 +1,12 @@
-public class bc {
-    public static void main(String[] args) {
-        int i = 1;
+import java.util.Scanner;
+
+public class cb {
+    public static void mai(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your value: ");
+
+        int i = sc.nextInt();
+
         while (true) {
             if (i >= 10) {
                 System.out.println(i);
@@ -10,6 +16,7 @@ public class bc {
             } else {
                 break;
             }
+            sc.close();
         }
     }
 }
