@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "exception",
+      "request": "launch",
+      "mainClass": "exception",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
+      "name": "except",
+      "request": "launch",
+      "mainClass": "except",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "lpg",
       "request": "launch",
       "mainClass": "lpg",
