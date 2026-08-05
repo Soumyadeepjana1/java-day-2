@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "funcation",
+      "request": "launch",
+      "mainClass": "funcation",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "methods",
       "request": "launch",
       "mainClass": "methods",
