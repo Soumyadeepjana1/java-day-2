@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "returnd",
+      "request": "launch",
+      "mainClass": "returnd",
+      "projectName": "java_programs_7794e990"
+    },
+    {
+      "type": "java",
       "name": "funcation",
       "request": "launch",
       "mainClass": "funcation",

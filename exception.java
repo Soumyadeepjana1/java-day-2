@@ -1,13 +1,12 @@
 public class exception {
     public static void main(String[] args) {
-        int[] marks = { 1, 23, 5, 67, 89 };
+        String[] marks = { "i", "k", "u", "b", "l" };
         try {
-            System.out.println(marks[2]);
+            System.out.println(marks[8]);
         } catch (Exception e) {
             System.out.println("this marks is not avalable");
+        } finally {
+            System.out.println("end the program");
         }
-
-        System.out.println("end the program");
-
     }
 }
