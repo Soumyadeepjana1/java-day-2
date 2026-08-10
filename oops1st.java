@@ -5,6 +5,14 @@ class pen {
     public void write() {
         System.out.println("write something for this pen");
     }
+
+    public void print_colour() {
+        System.out.println(this.colour);
+    }
+
+    public void print_type() {
+        System.out.println(this.type);
+    }
 }
 
 public class oops1st {
@@ -14,6 +22,8 @@ public class oops1st {
         pen1.type = "gel";
 
         pen1.write();
+        pen1.print_colour();
+        pen1.print_type();
     }
 
 }
