@@ -14,5 +14,6 @@
   "code-runner.saveFileBeforeRun": true,
   "code-runner.executorMap": {
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
-  }
+  },
+  "code-runner.showRunIconInEditorTitleMenu": true
 }
