@@ -52,6 +52,7 @@ public class class2 {
         pen1.write();
         pen1.print_name();
         pen1.print_type();
+        
 
         book1.write();
         book2.write();

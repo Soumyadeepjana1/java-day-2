@@ -26,7 +26,7 @@ class student {
     }
 
     public void print_name() {
-        System.out.print(this.name);
+        System.out.println(this.name);
     }
 
     public void print_subject() {
