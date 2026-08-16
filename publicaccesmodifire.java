@@ -8,7 +8,7 @@ class passmanager {
     public String name = "don";
 
     private String user_name = "Soumyadeep"; // private acces modifire
-                                             // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     private int user_password = 123456789;
 
     public String show_user() {
