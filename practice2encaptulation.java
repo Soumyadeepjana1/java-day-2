@@ -1,5 +1,5 @@
 class person {
-    int age;
+   private int age;
 
     public void setage(int age) {
         if (age >= 0 && age <= 100) {
