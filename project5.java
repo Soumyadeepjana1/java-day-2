@@ -47,7 +47,7 @@ class bankaccount {
     }
 
     public void deposit(int ammount) {
-        if (ammount >= 0) {
+        if (ammount > 0) {
             ballance = ballance + ammount;
         } else {
             System.out.println("invalid ammount");
