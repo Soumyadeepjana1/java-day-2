@@ -12,8 +12,9 @@ class student {
     }
 
     public void setmarks(int marks) {
-        this.marks = marks;
+
         if (marks >= 0 && marks <= 100) {
+            this.marks = marks;
             System.out.println("marks is valid");
         } else {
             System.out.println("marks is in valid");
@@ -25,8 +26,9 @@ class student {
     }
 
     public void setage(int age) {
-        this.age = age;
+
         if (age >= 0) {
+            this.age = age;
             System.out.println("age is valid ");
         } else {
             System.out.println("age is invalid");
