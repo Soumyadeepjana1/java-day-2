@@ -64,5 +64,7 @@ public class project6 {
         System.out.println(d1.get_sallary());
         d1.work();
 
+        System.out.println("end");
+
     }
 }
