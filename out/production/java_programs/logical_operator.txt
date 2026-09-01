@@ -1,0 +1,91 @@
+In Java, logical operators are used to combine or modify boolean (true/false) expressions.
+
+Operator	Name	Description	Example
+&&	Logical AND	Returns true if both conditions are true	(a > 5 && b < 10)
+`		`	Logical OR
+!	Logical NOT	Reverses the boolean value	!(a > 5)
+Example Program
+public class LogicalOperators {
+    public static void main(String[] args) {
+        int a = 10, b = 20;
+
+        System.out.println(a > 5 && b > 15);  // true
+        System.out.println(a > 15 || b > 15); // true
+        System.out.println(!(a > 5));         // false
+    }
+}
+Output
+true
+true
+false
+Summary
+&& (AND): Both conditions must be true.
+|| (OR): At least one condition must be true.
+! (NOT): Changes true to false and false to true.
+
+These operators are commonly used in if, while, and other decision-making statements in Java.
+
+all logical operator
+
+In Java, the logical operators are:
+
+Operator	Name	Rule	Example	Result
+&&	Logical AND	Both conditions must be true	true && false	false
+`		`	Logical OR	At least one condition must be true
+!	Logical NOT	Reverses the boolean value	!true	false
+1. Logical AND (&&)
+int a = 10, b = 20;
+
+System.out.println(a > 5 && b > 15); // true
+System.out.println(a > 15 && b > 15); // false
+2. Logical OR (||)
+int a = 10, b = 20;
+
+System.out.println(a > 15 || b > 15); // true
+System.out.println(a > 15 || b > 25); // false
+3. Logical NOT (!)
+int a = 10;
+
+System.out.println(!(a > 5)); // false
+System.out.println(!(a > 15)); // true
+Truth Table
+&& (AND)
+A	B	A && B
+true	true	true
+true	false	false
+false	true	false
+false	false	false
+|| (OR)
+A	B	A || B
+true	true	true
+true	false	true
+false	true	true
+false	false	false
+! (NOT)
+A	!A
+true	false
+false	true
+Example with if
+public class Main {
+    public static void main(String[] args) {
+        int age = 20;
+        boolean hasID = true;
+
+        if (age >= 18 && hasID) {
+            System.out.println("Allowed");
+        }
+
+        if (age < 18 || !hasID) {
+            System.out.println("Not Allowed");
+        }
+    }
+}
+Note
+
+Java also has the boolean operators & and |. When used with boolean values, they work like AND and OR but do not short-circuit (both operands are always evaluated). In most if conditions, you should use && and ||.
+
+Interview answer (short):
+
+&& → Logical AND
+|| → Logical OR
+! → Logical NOT

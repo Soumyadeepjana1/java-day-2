@@ -1,0 +1,45 @@
+What is a Constant?
+
+A constant is a value that cannot be changed after it is assigned.
+
+In Java, we use the final keyword to create a constant.
+
+Example
+public class Main {
+    public static void main(String[] args) {
+        final double PI = 3.14159;
+
+        System.out.println(PI);
+    }
+}
+
+Output:
+
+3.14159
+Invalid Example
+final int AGE = 21;
+
+AGE = 22;   // Error
+
+This gives a compile-time error because a constant's value cannot be changed.
+
+Naming Convention
+
+Constants are usually written in UPPER_CASE.
+
+final double PI = 3.14159;
+final int MAX_SIZE = 100;
+final String COLLEGE_NAME = "ABC College";
+Interview Definition
+
+A constant is a variable whose value cannot be changed after initialization. In Java, constants are declared using the final keyword.
+
+Example Uses
+PI = 3.14159
+Maximum marks
+Tax rate
+Company name
+Fixed configuration values
+
+Remember:
+final = value cannot be reassigned.

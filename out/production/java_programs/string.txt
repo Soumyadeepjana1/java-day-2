@@ -1,0 +1,38 @@
+# Java String Methods Notes
+
+| Method / Operator  | Syntax                   | কাজ                                  | Example                          | Output      |
+| ------------------ | ------------------------ | ------------------------------------ | -------------------------------- | ----------- |
+| Concatenation (+)  | str1 + str2              | দুটি String জোড়া লাগায়               | `"Hello" + " World"`             | Hello World |
+| length()           | str.length()             | String-এর length বের করে             | `"soumyadeep".length()`          | 10          |
+| charAt()           | str.charAt(index)        | নির্দিষ্ট index-এর character বের করে | `"john".charAt(2)`               | h           |
+| replace() (char)   | str.replace('a','b')     | Character replace করে                | `"soumya".replace('s','g')`      | goumya      |
+| replace() (String) | str.replace("old","new") | Word replace করে                     | `"john".replace("j","t")`        | tohn        |
+| substring()        | str.substring(start,end) | String-এর একটি অংশ বের করে           | `"john the don".substring(5,10)` | the d       |
+
+## Important Notes
+
+### Index starts from 0
+
+String = "john"
+
+| j | o | h | n |
+| - | - | - | - |
+| 0 | 1 | 2 | 3 |
+
+Example:
+
+charAt(2) → h
+
+### substring(start,end)
+
+* start = Included ✅
+* end = Excluded ❌
+
+Example:
+
+"Java Programming".substring(0,4)
+
+Output:
+
+Java
+
