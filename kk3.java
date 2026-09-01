@@ -1,5 +1,9 @@
+import java.util.Scanner;
 public class kk3{
     public static void main(String [] args){
+
+        Scanner sc = new Scanner(System.in);
+        String l = sc.next();
         int a = 20;
         float b = 22.4F;
         double c = 122222.56777;
@@ -11,5 +15,6 @@ public class kk3{
         System.out.println(c);
         System.out.println(d);
         System.out.println(t);
+        System.out.println(l);
     }
 }
